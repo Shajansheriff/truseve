@@ -82,8 +82,8 @@ blockquote span{
 }
 
 footer {
-  z-index: 0;
-  position: unset;
+  z-index: 1;
+  position: relative;
   display: block;
   background-color: #15191b;
   width: 100%;
