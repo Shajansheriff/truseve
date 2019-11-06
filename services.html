@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Truseve Enterprises</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+	<!--[if IE]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script>
+	if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+		var root = document.getElementsByTagName('html')[0];
+		root.setAttribute('class', 'ff');
+	};
+	</script>
+</head>
+<body class="demo-1">
+		<svg class="hidden">
+				<symbol id="icon-menu" viewBox="0 0 119 25">
+					<title>menu</title>
+					<path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z"/>
+				</symbol>
+				<symbol id="icon-close" viewBox="0 0 24 24">
+					<title>close</title>
+					<path d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"/>
+				</symbol>
+		</svg>
+        <main id="mainFrame">
+            <div class="frame">
+                <header class="main-header">
+                    <!-- <div class="codrops-links">
+                        <a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GridLayoutScrollableContent/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+                        <a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=36043" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+                    </div> -->
+                    <div class="header__title"><a href=""><img src="img/truseve-logo.png" alt="" srcset=""></a></div>
+                </header>
+                <!-- <p class="info">12 &mdash; 24 May 2019 &middot; Bannockburn &middot; Stirling &middot; UK</p>
+                <a class="github" href="https://github.com/codrops/MultiboxMenu/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a> -->
+            </div>
+            <nav class="menu">
+                <div class="menu__item menu__item--1" data-direction="bt">
+                    <div class="menu__item-inner">
+                        <div class="mainmenu">
+                            <a href="#" class="mainmenu__item">Home</a>
+                            <a href="#" class="mainmenu__item">Products</a>
+                            <a href="services.html" class="mainmenu__item">Services</a>
+                            <a href="contact.html" class="mainmenu__item">Contact</a>
+                        </div>
+                        <p class="label label--topleft label--vert-mirror">the important links</p>
+                        <p class="label label--bottomright label--vert">the important links</p>
+                    </div>
+                </div>
+                <div class="menu__item menu__item--2" data-direction="lr">
+                    <div class="menu__item-inner">
+                        <div class="menu__item-map"></div>
+                        <a href="#" class="menu__item-hoverlink">Get Quote</a>
+                    </div>
+                </div>
+                <div class="menu__item menu__item--3" data-direction="bt">
+                    <div class="menu__item-inner">
+                        <div class="sidemenu">
+                            <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">TruWorkspace</span></a>
+                            <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">TruRentals</span></a>
+                            <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">TruWares</span></a>
+                            <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">TruLabs</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__item menu__item--4" data-direction="rl">
+                    <div class="menu__item-inner">
+                        <p class="label label--topleft label--line">Join us now</p>
+                        <a href="#" class="menu__item-link">About<br>Us</a>
+                    </div>
+                </div>
+                <div class="menu__item menu__item--5" data-direction="tb">
+                    <div class="menu__item-inner">
+                        <p class="quote">WE BELIEVE THAT TECHNOLOGY SHOULD BE GLOBALLY ACCESSIBLE TO ALL AND MAKE LIFE SIMPLE, BETTER, MAGICAL AND EXQUISITE.</p>
+                    </div>
+                </div>
+                <button class="action action--menu"><svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg></button>
+                <button class="action action--close"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></button>
+            </nav>
+        </main>
+        <ul id="og-grid" class="og-grid">
+            <li>
+                <a href="#" data-largesrc="images/1.jpg" data-title="INSTALLATION SERVICES" data-description="Need help in fixing the electronic items you purchased at Truseve? Once you are happy with our products, we will visit your home or workplace to install the products. We offer professional independent installers for all your electrical needs. We are so confident in the quality of installation that we serve. We owe to provide installation services for all electronic products with experienced technicians.">
+                    <img src="images/thumbs/1.jpg" alt="img01"/>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-largesrc="images/2.jpg" data-title="WARRANTY SERVICES" data-description="The very first thing you should do after buying new electronic items to protect it with the right plan. Truseve clinch services that are designed to protect products to ensure their longevity. We find joy in owning a device that stays with the customer as long as possible. We promise to provide warranty services for all electronic goods.  For every equipment that you own and love, we have a plan to protect it.">
+                    <img src="images/thumbs/2.jpg" alt="img02"/>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-largesrc="images/3.jpg" data-title="QUALITY TEST" data-description="Do you have any second thoughts on how the quality of the renting product would be? Quality matters to you and also to us! That's why we do a strict and finest quality-check for every product.">
+                    <img src="images/thumbs/3.jpg" alt="img03"/>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-largesrc="images/1.jpg" data-title="UPGRADING PRODUCTS" data-description="As per the saying, “change is inevitable”, we keep upgrading the product to newer design so that end-user doesn't get bored of using the same old products.">
+                    <img src="images/thumbs/1.jpg" alt="img01"/>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-largesrc="images/2.jpg" data-title="PRODUCT RELOCATION" data-description="We also provide relocation services if you are changing the house or even your city. We promised to take full care of relocating your rented products.">
+                    <img src="images/thumbs/2.jpg" alt="img02"/>
+                </a>
+            </li>
+        </ul>
+		<footer id="footer">
+			<div class="container">
+				<img src="img/truseve-logo.png" alt="Truseve logo">
+				<div class="text-center">
+					<div class="contact">Contact: <a href="tel:+91-8610069959">+91-8610069959</a></div>
+					<div class="address">Truseve Enterprises Pvt. Ltd.</div>
+					<div class="address">No: 3, 5th Street, Thanthai Periyar st,</div>
+					<div class="address"> Dr Kannu  Nagar, Nesapakkam, Chennai, Tamil Nadu - 600078</div>
+				</div>
+				<div class="social-links">
+					<a href="mailto:Truseveenterprises@gmail.com" class="">
+						<i class="text-sm fa fa-envelope"></i>
+					</a>
+					<a href="https://www.linkedin.com/company/truseve-pvt-ltd" target="_blank" class="">
+						<i class="text-sm fa fa-linkedin"></i>
+					</a>
+					<a href="https://www.facebook.com/truseve" target="_blank" class="">
+						<i class="text-sm fa fa-facebook-square"></i>
+					</a>
+					<a href="https://www.instagram.com/truseve_/" target="_blank" class="">
+						<i class="text-sm fa fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- /container -->
+	<!-- JS -->
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/vendors/TweenMax.min.js"></script>
+	<script src="js/vendors/ScrollToPlugin.min.js"></script>
+	<script src="js/vendors/cash.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/grid.js"></script>
+    <script>
+        $(function() {
+            Grid.init();
+        });
+    </script>
+</body>
+
+</html>
